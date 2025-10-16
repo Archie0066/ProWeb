@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ПроВеб</title>
+</head>
+<body>
+    <form autocomplete="off">
+        <ol>
+            <li>
+                <label>Простое поле ввода текстовой информации:
+                    <input type="text">
+                </label>
+            </li>
+            <br>
+            <li>
+                <label>Поле ввода с предзаполнением:
+                    <input type="text" value="Предзаполненный текст">
+                </label>
+            </li>
+            <br>
+            <li>
+                <label>Поле ввода с подсказкой:
+                    <input type="text" placeholder="Введите текст здесь">
+                </label>
+            </li>
+            <br>
+            <li>
+                <label>Поле ввода только для чтения:
+                    <input type="text" value="Текст только для чтения" readonly>
+                </label>
+            </li>
+            <br>
+            <li>
+                <label>Поле ввода номера телефона:
+                    <input type="tel" placeholder="Введите номер телефона" 
+                           maxlength="11" pattern="[0-9]{11}" 
+                           autocomplete="tel">
+                </label>
+            </li>
+            <br>
+            <li>
+                <label>Поиск:
+                    <input type="search" autocomplete="on">
+                </label>
+            </li>
+            <br>
+            <li>
+                <input type="submit" value="Отправить">
+            </li>
+            <br>
+            <li>
+                <input type="reset" value="Сбросить">
+            </li>
+            <br>
+            <li>
+                <input type="button" value="Обычная кнопка">
+            </li>
+            <br>
+            <li>
+                <input type="image" src="https://aftershock.news/sites/default/files/u51845/teasers/R.s.jpeg" alt="" style="width: 220px; height: 100px;">
+            </li>
+        </ol>
+    </form>
+</body>
+</html>
